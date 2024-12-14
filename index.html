@@ -1,33 +1,49 @@
-<!DOCTYPE html> <html> <head> <title>My 
-    Website</title>
-</head> <body> <a href="index.html">Index</a> <a 
-    href="about.html">About</a> <h1>Welcome to My 
-    Website!</h1> <p>Order The CAT.</p> <hr /> 
-    <h2><i>Cat Zoo</i></h2> <!-- Adding the first 
-    image --> <img src="images.jpeg" 
-    alt="Description of Image" width="1000" 
-    height="600"> <hr /> <!-- Adding the second 
-    image --> <img src="images (1).jpeg" 
-    alt="Description of Second Image" width="1000" 
-    height="600"> <hr /> <br /><br /><br /> <hr /> 
-    <!-- Correcting the third image tag --> <img 
-    src="images (2).jpeg" alt="Cat" width="1000" 
-    height="600"> <hr /> <!-- Corrected the last 
-    image tag --> <img src="images (2).jpeg" 
-    alt="Cat" width="1000" height="600">
-<hr />
-<br /> 
-<br />
-<hr />
-<form>
-<div> <label>Username</label>
-<input> </div>
-<div>  <label>Password</label>
-       <input> </div>
-<button>SIGN UP</button>
-
-
-
-</form>
-</body>
+<!DOCTYPE html> <html lang="en"> <head> <meta 
+    charset="UTF-8"> <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0"> 
+    <title>My Website</title>
+</head> <body> <nav> <a href="index.html">Index</a> 
+        <a href="about.html">About</a>
+    </nav> <header> <h1>Welcome to My Website!</h1> 
+        <p>Order The CAT.</p>
+    </header> <hr /> <section> <h2><i>Cat 
+        Zoo</i></h2> <!-- Adding the first image --> 
+        <img src="images.jpeg" alt="Description of 
+        Image" width="1000" height="600"> <hr /> 
+        <!-- Adding the second image --> <img 
+        src="images (1).jpeg" alt="Description of 
+        Second Image" width="1000" height="600"> <hr 
+        /> <!-- Adding the third image --> <img 
+        src="images (2).jpeg" alt="Cat" width="1000" 
+        height="600"> <hr /> <!-- Adding the fourth 
+        image --> <img src="images (2).jpeg" 
+        alt="Cat" width="1000" height="600">
+    </section> <hr /> <form> <div> <label 
+            for="username">Username</label> <input 
+            type="text" id="username" 
+            name="username">
+        </div> <div> <label 
+            for="password">Password</label> <input 
+            type="password" id="password" 
+            name="password">
+        </div> <div> <label 
+            for="email">Email</label> <input 
+            type="email" id="email" name="email">
+        </div> <div> <label 
+            for="about">About</label> <textarea 
+            id="about" name="about" cols="20" 
+            rows="4"></textarea>
+        </div> <div> <label for="contact">Preferred 
+            Contact Method</label> <div>
+                <input type="radio" 
+                id="email_contact" name="contact" 
+                value="email"> <label 
+                for="email_contact">Email</label>
+            </div> <div> <input type="radio" 
+                id="sms_contact" name="contact" 
+                value="sms"> <label 
+                for="sms_contact">SMS</label>
+            </div> </div> <button type="submit">SIGN 
+        UP</button>
+    </form> </body>
 </html>
