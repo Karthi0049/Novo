@@ -1,8 +1,10 @@
-h1 { color: rgba(24, 242, 173, 1); /* Added alpha 
-    value for rgba */  /* Added alpha value for rgba */ 
-    font-style: normal; font-weight: black; /* 
-    Corrected 'weigth' to 'weight' */ font-stretch: 
-    normal; /* Corrected 'regular' to 'normal' */ 
-     /* Center aligns text */ 
-    font-size: 4.9em; /* Correct as is */
+body{
+background-color: rgba(125,84,84,0.5);
+}
+.logo {
+background-color:rgb(148,129,114);
+max-width:1200px;
+min-width:320px;
+font-size:10px;
+padding:10px;
 }
