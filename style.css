@@ -5,7 +5,7 @@ background-color: rgba(125,84,84,0.5);
 background-color:rgb(148,129,114);
 max-width:1200px;
 min-width:320px;
-font-size:18px;
+font-size:25px;
 padding:10px;
 }
 .bigbox { background-color: rgba(214, 179, 154,0.9); 
@@ -37,4 +37,5 @@ padding:10px auto 10px;
 }
 button{ background-color: black; color: white;
 padding:10px auto 10px;
+margin: 10px auto 10px;
 }
