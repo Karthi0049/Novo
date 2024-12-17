@@ -9,14 +9,14 @@ font-size:18px;
 padding:10px;
 }
 .bigbox { background-color: rgba(214, 179, 154,0.9); 
-  /* example RGBA value */ padding: 30px auto 70px; 
+  /* example RGBA value */ margin:50px auto 50px; 
   border-radius: 5px; min-width: 300px; max-width: 
-  375px; min-height: 250px; max-height: 275px;
+  375px; min-height: 225px; max-height: 250px;
 border:3px solid black;
 }
 #signup {
-  justify-content: center; color: black; font-size: 
-  10px;
+display: flex; justify-content: center; color: 
+  black; font-size: 10px;
 }
 .username { margin: 10px; padding: 5px;
 }
@@ -26,8 +26,10 @@ border:3px solid black;
   25px;
 }
 .gender { font-size: 15px;
-}
+} 
 #reg {
-justify-content: center; min-width: 70px; max-width: 
-  90px; min-height: 14px; max-height: 19px;
+color: white; background-color: black; display: 
+flex; justify-content: center;
+  min-width: 70px; max-width: 90px; min-height: 
+  14px; max-height: 19px;
 }
