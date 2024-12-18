@@ -5,10 +5,10 @@ background-color: rgba(125,84,84,0.5);
 background-color:rgb(148,129,114);
 max-width:1200px;
 min-width:320px;
-font-size:25px;
+font-size:30px;
 padding:10px;
 }
-.bigbox { background-color: rgba(214, 179, 154,0.9); 
+.bigbox { background-color: rgba(214, 179, 154,0.4); 
   /* example RGBA value */ margin:50px auto 50px; 
   border-radius: 5px; min-width: 300px; max-width: 
   700px; min-height: 225px; max-height: 750px;
@@ -30,11 +30,12 @@ padding: 6px;
 .gender { font-size: 15px;
 }
 #reg {
-color: white; text-align: center; min-width: 70px; 
+color: white;display:flex; min-width: 70px; 
   max-width: 90px; min-height: 14px; max-height: 
   19px;
 padding:10px auto 10px;
 margin: 10px auto 10px;
+justify-content:center;
 }
 button{ background-color: black; color: white;
 padding:10px auto 10px;
